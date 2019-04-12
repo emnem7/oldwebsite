@@ -30,17 +30,18 @@ section {
 	justify-content: space-evenly;
 	align-items: center ;
 	justify-content: center;
+	flex-shrink:1;
 }
 
 h1 {
 	flex-shrink:1;
-	font-size:60px;
+	font-size:3em;
 	font-family: 'Special Elite', cursive;
 	text-align: center;
 }
 
 iframe {
-	flex-shrink:2;
+	flex-shrink:3;
 }
 
 h2 {
@@ -57,6 +58,7 @@ a {
 }
 	
 p {
+	flex-shrink:1;
 	font-family: 'Open Sans', sans-serif;
 	text-align:center;
 	margin: 50px 0px;
