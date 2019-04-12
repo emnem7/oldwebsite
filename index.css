@@ -34,7 +34,6 @@ section {
 }
 
 h1 {
-	flex-shrink:3;
 	font-size:3em;
 	font-family: 'Special Elite', cursive;
 	text-align: center;
