@@ -4,8 +4,9 @@
 
 body {
 		background-color:#595959;
-        background: url("images/cool.jpg");
+        background: url("images/Priyanka.jpg");
 		background-size:cover;
+		background-position:center;
         height: 100vh;
         margin: auto;
 }
@@ -19,7 +20,6 @@ content {
     display: flex;
     flex-direction:column;
     justify-content: center;
-    align-items: center ;
 }
 
 section {
@@ -31,25 +31,29 @@ section {
 
 h1 {
 	padding:20px;
-	color:black;
+	color:#FBB039;
     font-size:42px;
-    font-family: 'Special Elite', cursive;
+    font-family: 'realScream', regular;
     text-align: center;
 	width:100%;
-	background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,0));
+	text-shadow: 3px 3px #1F1E45;
 }
 
 
 h2 {
-    color:black;
-    font-family: 'Roboto', sans-serif;
+	position:relative;
+	left:290px;
+	width:20%;
+	text-align:center;
+    color:#FBB039;
+    font-family: 'realScream', regular;
 	font-size: 20px;
     padding: 10px 40px;
     margin-left: 20px;
     margin-right: 20px;
-    border: 2px solid;
 	border-radius: 12px;
-	background: rgba(255, 255, 255, 0.9);
+	background-color:#1F1E45 ;
+	letter-spacing: 2px
 }
 
 a {
@@ -58,21 +62,29 @@ a {
 }
 
 p {
-    width:70%;
-    color:black;
+	position:relative;
+	left:90px;
+    width:45%;
+    color:#FBB039;
     padding:40px;
 	font-size:14px;
     font-family: 'Open Sans', sans-serif;
     text-align:center;
     margin: 20px 0px;
-	background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.8), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,0.8), rgba(255,255,255,0));
 }
 
 iframe {
+	position:relative;
+	left: 260px;
 	border: 1px solid;
 	margin: 20px 0px;
+	float:
 }
 
+@font-face {
+	font-family: realScream;
+	src: url(fonts/Scream_Real.otf)
+}
 
 @media only screen and (max-width: 600px) {
 
