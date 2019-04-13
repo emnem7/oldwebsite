@@ -36,8 +36,6 @@ h1 {
     text-align: center;
 }
 
-iframe {
-}
 
 h2 {
     color:white;
@@ -59,23 +57,52 @@ p {
     color:black;
     padding:20px;
     background: rgba(255, 255, 255, 0.9);
-    flex-shrink:1;
     font-family: 'Open Sans', sans-serif;
     text-align:center;
     margin: 50px 0px;
-    flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 600px) {
 
+  h1 {
+    font-size:24px;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
 
   body {
     background-color: lightblue;
     width:100%;
+	margin:0px;
   }
-  
-  iframe {
-	width:95%;
-  }
-  
 
+  content {
+    padding: 10px 20px;
+    align-items: center ;
+    width:100%;
+}
+p {
+    font-size: 14px;
+    width:60%;
+    color:black;
+    padding:20px;
+    background: rgba(255, 255, 255, 0.9);
+    min-width: 95%;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    margin: 50px 0px;
+
+}
+
+
+main {
+    padding: 20px;
+    width: 100%;
+}
+
+iframe {
+	width:99%;
+}
+
+
+}
