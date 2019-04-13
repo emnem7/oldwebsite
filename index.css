@@ -119,7 +119,7 @@ p {
     font-size: 14px;
     color:#FBD839;
     padding:20px;
-    background: rgb(50, 47, 106, 0.93);
+    background: rgba(50, 47, 106, 0.93);
     min-width: 95%;
     font-family: 'Open Sans', sans-serif;
     text-align:center;
