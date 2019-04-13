@@ -77,7 +77,7 @@ p {
 iframe {
 	position:relative;
 	left: 240px;
-	border: 1px solid;
+	border: 1px solid #1F1E45;
 	margin: 20px 0px;
 	float:
 }
@@ -101,6 +101,7 @@ iframe {
 	background: url("images/Priyankamobile.jpg");
 	background-color:#4A489C;	
 	background-repeat:no-repeat;
+	background-attachment:fixed;
 		background-size:cover;
 		background-position:center bottom;
   }
