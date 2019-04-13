@@ -37,7 +37,6 @@ h1 {
 }
 
 iframe {
-
 }
 
 h2 {
@@ -74,4 +73,9 @@ p {
     background-color: lightblue;
     width:100%;
   }
+  
+  iframe {
+	width:95%;
+  }
+  
 
