@@ -4,7 +4,7 @@
 
 body {
         color:white;
-        background-color: black;
+        background: url("images/rain.jpg");
         height: 100vh;
         margin: auto;
 }
@@ -71,7 +71,7 @@ p {
 }
 
   body {
-    background-color: lightblue;
+    background: url("images/rain.jpg");
     width:100%;
 	margin:0px;
   }
