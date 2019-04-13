@@ -75,7 +75,7 @@ p {
 
 iframe {
 	position:relative;
-	left: 260px;
+	left: 240px;
 	border: 1px solid;
 	margin: 20px 0px;
 	float:
@@ -104,7 +104,9 @@ iframe {
     align-items: center ;
     width:100%;
 }
+
 p {
+	position:static;
     font-size: 14px;
     color:black;
     padding:20px;
@@ -123,11 +125,14 @@ main {
 }
 
 iframe {
+	position:static;
 	margin:10px 0px;
 	width:99%;
 }
 
 h2 {
+	position:static;
+	width:auto;
 	font-size:20;
 
 }
