@@ -3,8 +3,9 @@
 }
 
 body {
-		background-color:#595959;
         background: url("images/Priyanka.jpg");
+		background-color:#4A489C;
+		background-repeat:no-repeat;
 		background-size:cover;
 		background-position:center;
         height: 100vh;
@@ -97,6 +98,11 @@ iframe {
   body {
     width:100%;
 	margin:0px;
+	background: url("images/Priyankamobile.jpg");
+	background-color:#4A489C;	
+	background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center bottom;
   }
   
   content {
