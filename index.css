@@ -3,7 +3,7 @@
 }
 
 body {
-        background: url("images/rain.jpg");
+        background: url("images/trees3.jpg") no-repeat center fixed;
         height: 100vh;
         margin: auto;
 }
