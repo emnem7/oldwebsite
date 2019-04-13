@@ -103,9 +103,9 @@ iframe {
 	background: url("images/Priyankamobile.jpg");
 	background-color:#4A489C;	
 	background-repeat:no-repeat;
-	background-attachment:fixed;
 	background-size:cover;
 	background-position:center bottom;
+	background-attachment:fixed;
   }
   
   content {
