@@ -3,7 +3,10 @@
 }
 
 body {
-        background: url("images/trees3.jpg") no-repeat center fixed;
+        background: url("images/spider.png");
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-attachment: fixed;
         height: 100vh;
         margin: auto;
 }
