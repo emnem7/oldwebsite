@@ -4,7 +4,7 @@
 
 body {
 		color:white;
-		background: url("images/rain.jpg");
+		background-color:tomato;
 		height: auto;
 		margin: auto;
 }
@@ -73,32 +73,24 @@ p {
 
   body {
     background-color: lightblue;
+    width:100%;
   }
 
   content {
     padding: 10px 20px;
     align-items: center ;
+    width:90%;
 }
 
 main {
     padding: 20px;
+    width: 100%;
 }
 
 iframe {
-    width:100px;
+    width:95%;
 }
 
-p {
-    min-width:500px;
-    width:70%;
-    color:black;
-    padding:20px;
-    background: rgba(255, 255, 255, 0.9);
 
-    font-family: 'Open Sans', sans-serif;
-    text-align:center;
-    margin: 50px 0px;
 
 }
-
-}	
